@@ -295,7 +295,8 @@ class Node:
 
 
             # else if the element is a telomere
-            elif type(element) is str:
+            #elif type(element) is str:
+            else:
                 u = 0
                 p = element
 
